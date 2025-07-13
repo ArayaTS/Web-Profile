@@ -79,19 +79,8 @@ nav a.active{
     border-bottom: 3px solid #4A90E2;
 }
 
-#menu-icon {
-    font-size: 3.6rem;
-    color: #4A90E2;
-    display: none;
-}
-
-
 
 @media(max-width:995px){
-    #menu-icon {
-        display: block;
-    }
-
     nav{
         position: absolute;
         display: none;
@@ -309,8 +298,7 @@ span{
         cursor: pointer;
         transition: 0.3s ease;
         color: #4A90E2;
-        
-        
+        margin: auto;
 }
 
 .aboutme-box:hover{
@@ -412,6 +400,17 @@ span{
     font-weight: 500;
     margin-left: 0.5rem;
     color: white;
+}
+
+/* Performance */
+.performance{
+    margin: 90px auto 0 auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+    
 }
 
 @keyframes cursor{
