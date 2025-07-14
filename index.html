@@ -7,13 +7,21 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
    <header>
       <a href="#" class="logo">Web Profile</a>
 
+      <input type="checkbox" id="check">
+
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
       <nav>
-        <a href="#home" class="active">Home</a>
+        <a href="#home">Home</a>
         <a href="#aboutme">About Me</a>
         <a href="#skill">Skill</a>
         <a href="#performance">Performance</a>
@@ -73,7 +81,7 @@
      </div>
    </section>
    <section class="skill" id="skill">
-     <h2 class="heading">Skills</h2>
+     <h2>Skills</h2>
      <div class="container">
         <div class="row" id="skillsContainer">
             <div class="bar">
@@ -85,7 +93,7 @@
 
             <div class="bar">
                 <div class="info">
-                    <img src="../img/css-3 (2).png" alt="css">
+                    <img src="../img/css-3.png" alt="css">
                     <span>CSS</span>
                 </div>
             </div>
@@ -128,6 +136,22 @@
      </div>
    </section>
    <section class="performance" id="performance">
+    <h2>Performance</h2>
+    <h3>Project</h3>
+    <div class="container">
+        <div class="content-con">
+            <div class="content-item">
+                <img src="../img/moomAroi.png" alt="moomAroi">
+                <h4>Project MoomAroi App</h4>
+                <p>Font-end : Home , Menu Detail, Cart, Order Status, All bill</p>
+            </div>
+            <div class="content-item">
+                <img src="../img/project1.png" alt="moomAroi">
+                <h4>Project Growtogater Web</h4>
+                <p>Font-end : Welcome page, Sign in, Create Account, OTP, Signup3, Signup5, Home post</p>
+            </div>
+        </div>
+    </div>
 
    </section>
 </body>
